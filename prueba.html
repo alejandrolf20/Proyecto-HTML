@@ -1,0 +1,159 @@
+Una lista no ordenada que uno de los elementos sea una lista ordenada
+Imagen con enlace a pagina externa.
+Formulario controles de tipo radio y checkpost y que se envie a la pagina de jose domingo.
+Tabla con un titulo, encabezados dos filas y 3 columnas. 
+A través del css modificar el tamaño de la imagen y los colores de las celdas de la tabla.
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio Fitness - Servicios</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Nosotros</a></li>
+                <li><a href="service.html">Servicios</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="http://www2.gonzalonazareno.org/josedom/resultado.php">Resultados</a></li>
+                <li><a href="prueba.html">Prueba</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+<main>
+    <header class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="display-4">Prueba</h1>
+                    <p class="lead">Esto es una prueba.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <list>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="schedule-item">
+                            <h3 class="schedule-title">Clase de Cardio</h3>
+                            <p class="schedule-description">Lunes - Miércoles - Viernes</p>
+                            <p class="schedule-time">8:00 AM - 9:00 AM</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="schedule-item">
+                            <h3 class="schedule-title">Clase de Yoga</h3>
+                            <p class="schedule-description">Martes - Jueves</p>
+                            <p class="schedule-time">10:00 AM - 11:00 AM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </list>
+    </section>
+
+    <section class="section service-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="service-item">
+                        <img src="img/cardio.jpeg" alt="Cardio" href="service.html">
+                        <h3 class="service-title">Cardio</h3>
+                        <p class="service-description">Nuestras clases de cardio te ayudarán a mejorar tu resistencia cardiovascular y quemar calorías de forma efectiva.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section>
+            <h2>Horarios</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>8:00 AM - 9:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Martes</td>
+                        <td>8:00 AM - 9:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>8:00 AM - 9:00 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <main>
+        <section class="contact">
+            <div class="container">
+                <h2>Contacto</h2>
+                <form action="http://www2.gonzalonazareno.org/josedom/resultado.php" method="POST">
+                    <div>
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>    
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Gimnasio Fitness. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
